@@ -44,5 +44,5 @@ bots:
 
   leela-zero:  # LeelaZero also requires weights
     bot_type: leela-zero
-    executable: /home/gelya/PycharmProjects/leela-zero/src/leelaz
-    arguments: --gtp --noponder --weights /home/gelya/PycharmProjects/leela-zero/weights.txt
+    executable: ./leela-zero/src/leelaz 
+    arguments: --gtp --noponder -t 2 --weights 2da87ea8da0f54e87b70159e6bb82811b61d1c31091b6e019fbe62aeaa803b9c.gz
