@@ -12,12 +12,12 @@ config:
 
   stop_on_winrate: 0.80       # Stops analysis on this winrate drop
 
-  analyze_time: 120            # How many seconds to use per game moves analysis (default=60)
+  analyze_time: 5            # How many seconds to use per game moves analysis (default=60)
   analyze_threshold: 0.025     # Display analysis on moves losing at least this much of win rate (default=0.05)
 
   variations_threshold: 0.05   # Explore variations on moves losing at least this much of win rate (default=0.05)
 
-  variations_time: 60         # How many seconds to use per variations analysis (default=30)
+  variations_time: 5         # How many seconds to use per variations analysis (default=30)
   variations_depth: 3         # Number of nodes to explore (depth) in each variation tree (default=5)
   num_to_show: 10             # Number of suggested perfect moves to show(default=10)
 
